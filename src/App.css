@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: rgb(50, 50, 50);
+  color: rgb(230, 230, 230);
+  font-family: "Montserrat", sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Navbar {
+  padding: 0px;
+  margin: 0px 0px 20px 0px;
+  font-size: 20px;
+  font-weight: bolder;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-content: center;
 }
-
-.App-link {
-  color: #61dafb;
+.Container {
+  padding: 20px;
+  margin: 10px;
+  width: 550px;
+  height: 280px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  background-color: rgb(20, 20, 20);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ContainerAdd {
+  padding: 20px;
+  margin: 10px;
+  width: 550px;
+  height: 280px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(20, 20, 20);
+  color: rgb(230, 230, 230);
+  font-size: 200px;
+  cursor: pointer;
+}
+.movieDetails {
+  padding: 10px;
+  margin: 5px;
+}
+.Search {
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+}
+.SearchInput {
+  padding: 10px;
+  border-radius: 8px;
+  width: 480px;
+}
+.fa-star {
+  color: gold;
+  font-size: 20px;
 }
